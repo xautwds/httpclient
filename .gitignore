@@ -34,3 +34,15 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+
+*.db
+*.exp
+*.pdb
+*.ilk
+*.exe
+*.obj
+*.opendb
+*.htm
+test/Debug/
+httpclient/Debug/
+bin

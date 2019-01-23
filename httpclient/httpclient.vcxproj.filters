@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\socket">
+      <UniqueIdentifier>{30743ff9-3e20-462e-b396-3de544f67d0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\http">
+      <UniqueIdentifier>{5486c914-27ee-401f-8c54-cbc3b53f69a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{80875af7-171b-4a34-b608-46885579998b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\asynchttp">
+      <UniqueIdentifier>{8037233d-7845-4cfb-b876-cf5a970a5873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\socket">
+      <UniqueIdentifier>{2d380c7c-4006-4a40-9d6e-08e6429d439a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\http">
+      <UniqueIdentifier>{d80af9e5-a770-4c4c-b8e4-e49b541783c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{be6861db-54a3-4fa5-a25e-d96b55c94166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\asynchttp">
+      <UniqueIdentifier>{22e51571-3754-475c-99d9-3c231fb28f24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dll_init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="proxy_socket .cpp">
+      <Filter>Source Files\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="socket_helper.cpp">
+      <Filter>Source Files\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="streaming_socket.cpp">
+      <Filter>Source Files\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="http_client.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="http_header_parser.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="http_post_file.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="http_request.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="http_response.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="http_response_receiver.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="url_parser.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="file_reader.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="file_writer.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="thread.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="http_pool.cpp">
+      <Filter>Source Files\asynchttp</Filter>
+    </ClCompile>
+    <ClCompile Include="http_thread.cpp">
+      <Filter>Source Files\asynchttp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global_defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="http.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="standard_header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy_config.h">
+      <Filter>Header Files\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy_socket.h">
+      <Filter>Header Files\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="socket_helper.h">
+      <Filter>Header Files\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="streaming_socket.h">
+      <Filter>Header Files\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="http_client.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="http_delegate.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="http_global.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="http_header_parser.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="http_post_file.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="http_request.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="http_response.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="http_response_receiver.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="url_parser.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="file_reader.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="file_writer.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="lock.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="thread.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="http_pool.h">
+      <Filter>Header Files\asynchttp</Filter>
+    </ClInclude>
+    <ClInclude Include="http_thread.h">
+      <Filter>Header Files\asynchttp</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
